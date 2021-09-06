@@ -45,9 +45,9 @@ int main(){
 
         if (game[i][j] == ' ') {
             if (turn == false)
-                game[i][j] = 'X';
+                game[i][j] = player1;
             else
-                game[i][j] = 'O';
+                game[i][j] = player2;
         }
         else {
             turn = !turn;
